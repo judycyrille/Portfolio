@@ -1,0 +1,185 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+title {
+    display: none;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 999;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+ .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 40px;
+    transition: all 0.3s ease;
+}
+.menu-btn {
+    display: block;
+    z-index: 999;
+}
+
+.menu-btn {
+color: white;
+font-size: 23px;
+cursor: pointer;
+display: none;
+}
+
+div {
+display: block;
+unicode-bidi: isolate;
+}
+
+
+.body {
+    background-color: lightblue;
+    font-size: 16px; /* Change this value to adjust the font size */
+    color: navy;
+    margin-left: 20px;
+}
+.home {
+    display: flex;
+    background: url(images/img5.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 500px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+
+/* Set global styles */
+body {
+    background-color: #000000; /* Dark background color */
+    color: #ffffff; /* White text color */
+    font-family: 'Your Font', sans-serif; /* Choose an appropriate font */
+  }
+  
+  /* Header section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #ff69b4; /* Pink color for the period */
+  }
+  
+  
+    /* Style your menu icon as needed */
+    
+  /* Greeting section */
+  .greeting {
+    margin-top: 50px; /* Adjust spacing as needed */
+  }
+  
+  .name {
+    font-size: 48px; /* Adjust font size for the name */
+    font-weight: bold;
+    color: #ffd700; /* Gold/yellow color for the name */
+  }
+  
+  
+  /* Call-to-action buttons */
+  .cta-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+  .cta-button-filled {
+    background-color: #ffffff; /* White background for filled button */
+    color: #000000; /* Black text color */
+  }
+  
+  .cta-button-outlined {
+    background-color: transparent; /* Transparent background for outlined button */
+    border: 1px solid #ffffff; /* White border */
+    color: #ffffff; /* White text color */
+  }
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+.scroll-up-btn {
+    position: fixed;
+    height: 50px;
+    width: 47px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    z-index: 999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+/* Style the navigation links */
+li {
+    display: inline-block;
+    margin-left: 20px; /* Add spacing between links */
+}
+
+/* Change link color on hover */
+a {
+    text-decoration: none;
+    color: #333; /* Default link color */
+}
+
+a:hover {
+    color: #0074D9; /* Change color on hover */
+}
+
+
+a:hover {
+    color: #0074D9; /* Change color on hover */
+}
+
+/* Move the entire navigation bar to the right */
+nav {
+    text-align: right;
+}
+/* Set a specific width and height for the image */
+img {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+        }
